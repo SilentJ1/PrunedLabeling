@@ -2,24 +2,6 @@
 
 本项目主要用于处理图数据，通过构建索引实现高效的图查询功能。项目采用 C++ 编写，支持强连通分量（SCC）计算、索引构建和查询等操作。
 
-# 项目结构
-
-Task1_2/
-├── .vscode/
-│   ├── settings.json
-│   ├── launch.json
-│   └── tasks.json
-├── include/
-│   ├── Graph.h
-│   └── PrunedLabeling.h
-├── src/
-│   ├── PrunedLabeling.cpp
-│   ├── main.cpp
-│   └── Graph.cpp
-├── output/
-│   └── main (可执行文件)
-├── Makefile
-└── README.md
 
 # 各部分功能说明
 
@@ -78,5 +60,5 @@ main.cpp
 图文件和查询文件的路径需要在 main.cpp 中进行配置。
 项目支持 Windows 和 Linux 平台
 
-# 贡献
+# 论文
 Fast and scalable reachability queries on graphs by pruned labeling with landmarks and paths.
